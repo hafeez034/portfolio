@@ -1,10 +1,7 @@
 @import url(fontawesome-all.min.css);
 
-/*
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -101,7 +98,7 @@ p2{
 	}
 
 	body {
-		background: #312450;
+		background: #000000;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -174,12 +171,20 @@ p2{
 	}
 
 	p {
-		color: #333;
+		color: #c6f0f6;
 		margin: 0 0 2em 0;
+		font-size: 1em;
 	}
 
-	h1, h2 {
-		color: #000000;
+	h1{
+		color: #06cdf5;
+		font-weight: bold;
+		padding-bottom: 20px;
+	}
+	
+	
+	h2 {
+		color: #06cdf5;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -191,10 +196,12 @@ p2{
 		height : 45px;
 	}
 
-	h7 {
-		color: #ffffff;
-		height: 15px
-	}
+	/*h6 {
+		color: #000000;
+		height: 15px;
+		font-weight: bold;
+		line-height: 1.6;
+	}*/
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
@@ -235,19 +242,27 @@ p2{
 
 	h3 {
 		font-size: 1.1em;
+		color: #06cdf5;
 	}
 
 	h4 {
-		font-size: 1em;
+		font-size: 1.8em;
+		color: #000;
+		font-weight: bolder;
 	}
 
 	h5 {
-		font-size: 0.8em;
+		font-size: 1.1em;
+		color: #e4f5c1;
 	}
 
 	h6 {
-		font-size: 0.6em;
+		font-size: 1.25em;
+		color: #170303;
+		font-family: 'Segoe UI';
 	}
+
+	
 
 	@media screen and (max-width: 736px) {
 
@@ -272,7 +287,7 @@ p2{
 		}
 
 		h6 {
-			font-size: 0.6em;
+			font-size: 1.5em;
 		}
 
 	}
@@ -2839,7 +2854,7 @@ p2{
 			}
 
 				ul.icons li > a .label, ul.icons li > span .label {
-					display: none;
+					display: none;*/
 				}
 
 /* Menu */
@@ -3255,7 +3270,7 @@ p2{
 		}
 
 		.wrapper.style1 {
-			background-color: #9B7EBD;
+			background-color: #000000;
 		}
 
 		.wrapper.style1-alt {
@@ -3271,12 +3286,21 @@ p2{
 		}
 
 		.wrapper.style3 {
-			background-color: #080909bc;
+			background-color: #000000;
 		}
 
 		.wrapper.style3-alt {
 			background-color: #65c1fa;
 		}
+
+		.wrapper.style4 {
+			background-color: #087085;
+		}
+
+		.wrapper.style4-alt {
+			background-color: #06cdf5;
+		}
+
 
 		.wrapper.fullscreen {
 			display: -moz-flex;
@@ -3928,7 +3952,7 @@ p2{
             padding: 10px 20px;
             font-size: 16px;
             text-decoration: none;
-            color: white;
+            color: #b3f47f;
             border-radius: 5px;
             margin-right: 10px;
         }
